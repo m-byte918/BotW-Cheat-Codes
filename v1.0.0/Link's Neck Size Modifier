@@ -1,0 +1,13 @@
+Does not work while running/walking.
+Replace X's with your desired value.
+BF800000 = Use this value when he is topless and check out his armpits
+00000000 = None
+3E800000 = tiny
+40000000 = twice as big
+40400000 = trice as big
+40800000 = 4 times bigger
+41000000 = 8 times bigger
+
+02020003 436C9B04
+XXXXXXXX 00000004
+00000000 00000000
