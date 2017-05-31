@@ -1,0 +1,9 @@
+Replace the XX's with desired delay between lightning strikes.
+Normal delay between strikes is about 80.
+Value of 05 is like Rapid fire lightning strikes, and 01 almost lags the game from there being so many strikes.
+
+03020000 407CE158
+00000000 00000000
+00020000 407CE158
+000000XX 00000000
+D0000000 DEADCAFE
