@@ -1,0 +1,9 @@
+Generate a random direction of wind current at your location.
+Replace X's with one oft he following values:
+3F800000 = no wind.
+40000000 = some wind
+41000000 = strong wind
+42000000 = super strong wind
+
+00020000 407B6160
+XXXXXXXX 00000000
