@@ -1,0 +1,18 @@
+Does not work while running.
+X, Y, and Z represent the coordinates.
+Replace them with your desired value(s).
+3F000000 = 0.5m/1.5ft
+3F800000 = 1m/3ft
+40000000 = 2m/6ft
+40400000 = 3m/9ft
+BF000000 = -0.5m/-1.5ft
+BF800000 = -1m/-3ft
+C0000000 = -2m/-6ft
+C0400000 = -3m/-9ft
+
+00020000 436C77C0
+XXXXXXXX 00000000
+00020000 436C77C4
+YYYYYYYY 00000000
+00020000 436C77C8
+ZZZZZZZZ 00000000
