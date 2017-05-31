@@ -1,0 +1,4 @@
+Change X's to your desired armour rating in hex, (FF would be an armour rating of 255).
+
+00000000 43AB7EF7
+000000XX 00000000
