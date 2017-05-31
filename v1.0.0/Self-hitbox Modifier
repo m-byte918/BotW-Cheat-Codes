@@ -1,0 +1,22 @@
+Link's model is XX meters remote from his hitbox.
+Replace X's with your desired value.
+00000000 = 0m (default)
+3F000000 = 0.5m
+3F800000 = 1m
+40000000 = 2m
+40400000 = 3m
+40800000 = 4m
+41000000 = 8m
+41800000 = 16m
+42000000 = 32m
+BF000000 = -0.5m
+BF800000 = -1m
+C0000000 = -2m
+C0400000 = -3m
+C0800000 = -4m
+C1000000 = -8m
+C1800000 = -16m
+C2000000 = -32m
+
+00020000 4369B8FC
+40000000 00000000
