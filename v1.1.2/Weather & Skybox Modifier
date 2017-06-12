@@ -1,9 +1,0 @@
-Replace X's with desired weather effect.
-01030002 = cloudy
-03010002 = dark rainy
-00010002 = sunny
-07000007 = lightning (only the rain and thunder sounds)
-05000007 = fog and snows (effects only)
-
-00020000 407B5CF0
-XXXXXXXX 00000000
