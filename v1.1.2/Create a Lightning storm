@@ -1,6 +1,7 @@
 Replace the XX's with desired delay between lightning strikes.
 Normal delay between strikes is about 80.
 Value of 05 is like Rapid fire lightning strikes, and 01 almost lags the game from there being so many strikes.
+By Skoolzout1
 
 03020000 407B6020
 00000000 00000000
