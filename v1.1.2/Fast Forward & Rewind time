@@ -1,5 +1,6 @@
 ZL + DpadLeft subtracts 1hr from current time, 
 ZL + DpadRight adds 1hr to current time.
+By Skoolzout1
 
 30000000 407B3AF4
 10000000 50000000
