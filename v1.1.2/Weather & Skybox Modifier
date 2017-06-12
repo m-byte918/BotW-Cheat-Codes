@@ -4,6 +4,7 @@ Replace X's with desired weather effect.
 00010002 = sunny
 07000007 = lightning (only the rain and thunder sounds)
 05000007 = fog and snows (effects only)
+By Skoolzout1
 
 00020000 407B5CF0
 XXXXXXXX 00000000
