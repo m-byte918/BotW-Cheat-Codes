@@ -5,6 +5,7 @@ Replace the X's in the second line with the desired game speed.
 3D4CCCCD = 0.05 speed
 000000000 = about 0.05 speed as well. There is a cap to how slow it will go with this method
 Speed cannot be greater than 1.0 using this method
+By Skoolzout1
 
 00020000 4C000700
 XXXXXXXX 00000000
