@@ -1,0 +1,11 @@
+Does not work while running.
+Replace X's with your desired value.
+00000000 = invisible
+3E800000 = tiny
+40000000 = twice as big
+40400000 = trice as big
+40800000 = 4 times bigger
+
+02020003 436C77B4
+XXXXXXXX 00000004
+00000000 00000000
