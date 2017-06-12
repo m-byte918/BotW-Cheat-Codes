@@ -1,6 +1,7 @@
 Press R+X to Freeze your fake location where you're standing.
 Press R+A to Restore Normal Coordinate tracking.
 This essentially elimates coordinate based Cutscene triggers.
+By Skoolzout1
 
 03010000 102F48AA
 00001010 00000000
