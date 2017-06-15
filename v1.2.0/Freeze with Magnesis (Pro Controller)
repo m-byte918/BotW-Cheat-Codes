@@ -1,0 +1,20 @@
+Press Dpad+Down with object in magnesis's crosshairs to freeze it in 
+it's position. Press A to unfreeze. Still has bugs, needs improvement.
+I recommend trying it on Guardians, it does some weird stuff :3
+By Megabyte918
+
+03020000 10C3CDB0
+00004000 00000000
+30000000 43856C88
+43800000 4A000000
+31000000 00000364
+00120000 00001040
+D0000000 DEADCAFE
+03020000 10C3CDB0
+00000010 00000000
+30000000 43856C88
+43800000 4A000000
+31000000 00000364
+00120000 00001000
+D0000000 DEADCAFE
+Pointer: [43856C88] + 0x364
