@@ -1,5 +1,6 @@
-Drop your equipped item then pick it back up after sending code or it might softlock your game.
-Will not work on all gear since not all gear allow bonuses.
+Switch items or drop your equipped item then pick it back up to activate the code. This MUST be done
+if your using the bow-code because they like to cause a softlock when you try to shoot or drop them.
+Might not work on all gear since not all gear allow bonuses.
 By Megabyte918
 
 
@@ -12,7 +13,8 @@ Replace X's with your desired Bonus.
 08 = Long Throw
 
 Replace Y's with your desired bonus value.
-Normal value for bonuses 02, 04, and 08 is 00000005.
+Normal value for bonuses 02, and 04 is 00000005.
+Normal value for 08 is ????????
 
 Example, giving my weapon Attack Up + 100:
 00120000 80000001
@@ -49,12 +51,11 @@ Replace X's with your desired Bonus.
 70 = Zoom + Double Shoot + Quick Shot
 
 Replace Y's with your desired bonus value.
-Normal value for bonuses 02 and 04 is 00000005.
-Normal value for bonuses 10 and so on is 00000000.
+Normal value for bonuses 02 and so on is 00000005.
 
-Example, giving my bow Attack Up + 100:
+Example, giving my bow Durability Up:
 00120000 80000001
-00120004 00000064
+00120004 00000005
 The "YYYYYYYY" value should be in decimal.
 
 30000000 101C1D40
@@ -72,14 +73,21 @@ The "YYYYYYYY" value should be in decimal.
 00120000 800000XX
 00120004 YYYYYYYY
 -------------------------------------------------------
-Sheilds:
+Shields:
 
 Replace X's with your desired Bonus.
-01 = Attack Up (lynel sheilds only?)
-02 = Durability Up
+001 = Attack Up (lynel shields only?)
+002 = Durability Up
+080 = Shield Surf Up
+100 = Shield Guard Up
 
-Replace Y's with your desired bonus value in decimal.
-Normal value for Durability Up is 00000005.
+Replace Y's with your desired bonus value.
+Normal value for 02 and 80 is 00000005.
+
+Example, giving my shield Shield Guard Up + 100:
+00120000 80000100
+00120004 00000064
+The "YYYYYYYY" value should be in decimal.
 
 30000000 101C1D40
 10000000 50000000
@@ -93,5 +101,5 @@ Normal value for Durability Up is 00000005.
 30100000 00000000
 10000000 50000000
 31000000 00000AE0
-00120000 800000XX
+00120000 80000XXX
 00120004 YYYYYYYY
