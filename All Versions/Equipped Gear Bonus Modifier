@@ -14,7 +14,7 @@ Replace X's with your desired Bonus.
 
 Replace Y's with your desired bonus value.
 Normal value for bonuses 02, and 04 is 00000005.
-Normal value for 08 is ????????
+Normal value for 08 is 000006C2.
 
 Example, giving my weapon Attack Up + 100:
 00120000 80000001
