@@ -1,5 +1,5 @@
-Drop your weapon then pick it back up after sending code or it might softlock your game.
-Will not work on every weapon since not all weapons allow bonuses.
+Drop your equipped item then pick it back up after sending code or it might softlock your game.
+Will not work on all gear since not all gear allow bonuses.
 By Megabyte918
 
 
@@ -63,6 +63,30 @@ The "YYYYYYYY" value should be in decimal.
 30100000 00000000
 10000000 50000000
 31000000 00000BDC
+30100000 00000000
+10000000 50000000
+31000000 00000040
+30100000 00000000
+10000000 50000000
+31000000 00000AE0
+00120000 800000XX
+00120004 YYYYYYYY
+-------------------------------------------------------
+Sheilds:
+
+Replace X's with your desired Bonus.
+01 = Attack Up (lynel sheilds only?)
+02 = Durability Up
+
+Replace Y's with your desired bonus value in decimal.
+Normal value for Durability Up is 00000005.
+
+30000000 101C1D40
+10000000 50000000
+31000000 00002580
+30100000 00000000
+10000000 50000000
+31000000 00000B80
 30100000 00000000
 10000000 50000000
 31000000 00000040
