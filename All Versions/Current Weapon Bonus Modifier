@@ -1,0 +1,73 @@
+Drop your weapon then pick it back up after sending code or it might softlock your game.
+Will not work on every weapon since not all weapons allow bonuses.
+By Megabyte918
+
+
+Swords/Spears:
+
+Replace X with your desired Bonus.
+1 = Attack Up
+2 = Durability Up
+4 = Critical Hit
+8 = Long Throw
+
+Replace Y's with your desired bonus value.
+Normal value for bonuses 2, 4, and 8 is 00000005.
+
+Example, giving my weapon Attack Up + 100:
+00120000 80000001
+00120004 00000064
+The "YYYYYYYY" value should be in decimal.
+
+30000000 101C1D40
+10000000 50000000
+31000000 00002580
+30100000 00000000
+10000000 50000000
+31000000 00000B24
+30100000 00000000
+10000000 50000000
+31000000 00000040
+30100000 00000000
+10000000 50000000
+31000000 00000AE0
+00120000 8000000X
+00120004 YYYYYYYY
+------------------------------------------------------
+Bows:
+
+Replace X's with your desired Bonus.
+01 = Attack Up
+02 = Durability Up
+04 = Critical Hit
+10 = Five-Shot Burst
+20 = Zoom
+30 = Zoom + Five-shot Burst
+40 = Quick Shot
+50 = Quick Shot + Shoot 2 arrows
+60 = Zoom + Double Shoot
+70 = Zoom + Double Shoot + Quick Shot
+
+Replace Y's with your desired bonus value.
+Normal value for bonuses 02 and 04 is 00000005.
+Normal value for bonuses 10 and so on is 00000000.
+
+Example, giving my bow Attack Up + 100:
+00120000 80000001
+00120004 00000064
+The "YYYYYYYY" value should be in decimal.
+
+30000000 101C1D40
+10000000 50000000
+31000000 00002580
+30100000 00000000
+10000000 50000000
+31000000 00000BDC
+30100000 00000000
+10000000 50000000
+31000000 00000040
+30100000 00000000
+10000000 50000000
+31000000 00000AE0
+00120000 800000XX
+00120004 YYYYYYYY
