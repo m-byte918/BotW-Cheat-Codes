@@ -5,14 +5,14 @@ By Megabyte918
 
 Swords/Spears:
 
-Replace X with your desired Bonus.
-1 = Attack Up
-2 = Durability Up
-4 = Critical Hit
-8 = Long Throw
+Replace X's with your desired Bonus.
+01 = Attack Up
+02 = Durability Up
+04 = Critical Hit
+08 = Long Throw
 
 Replace Y's with your desired bonus value.
-Normal value for bonuses 2, 4, and 8 is 00000005.
+Normal value for bonuses 02, 04, and 08 is 00000005.
 
 Example, giving my weapon Attack Up + 100:
 00120000 80000001
@@ -31,7 +31,7 @@ The "YYYYYYYY" value should be in decimal.
 30100000 00000000
 10000000 50000000
 31000000 00000AE0
-00120000 8000000X
+00120000 800000XX
 00120004 YYYYYYYY
 ------------------------------------------------------
 Bows:
