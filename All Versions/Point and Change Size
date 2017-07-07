@@ -1,5 +1,6 @@
-Replace X's with your desired size
+Press DpadDown while pointing at an enemy with the stasis rune to change it's size.
 
+Replace X's with your desired size:
 Use the conversions tab in JGecko U to choose the value,
 Use the floating point -> hexadecimal button and select the size ratio you'd like to make the enemy.
 ie 0.5 (3F000000) makes enemies half their regular size.
