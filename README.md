@@ -1,7 +1,5 @@
 # BotW-Cheat-Codes
-List of Cafe/Gecko codes for Breath of the Wild (Wii U)
-
-Codes gathered from various sources online and some by me. All codes with button activators are for the Wii U Gamepad only unless stated otherwise.
+List of Cafe/Gecko codes for Breath of the Wild (Wii U) gathered from various sources online and some by me.
 
 **Code format:**
 ```
