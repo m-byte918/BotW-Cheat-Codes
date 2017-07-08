@@ -20,7 +20,7 @@ Wii U Gamepad:
 00120050 FFFFFFFF
 D0000000 DEADCAFE
 
-Pro Controller:
+Pro Controller (untested):
 
 03000000 43856CC8
 00000001 00000000
