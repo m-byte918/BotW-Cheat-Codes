@@ -1,0 +1,15 @@
+Replace X's with desired weather effect.
+01030002 = Cloudy
+03010002 = Dark & Rainy
+00010002 = Sunny
+07000007 = Lightning (only the rain and thunder sounds)
+05000007 = Fog and Snows (effects only)
+
+30000000 10937E90
+3E719999 424E6666
+31000000 0000008C
+30100000 00000000
+3E7198E7 424E65A8
+31000000 00002340
+00120000 XXXXXXXX
+D0000000 DEADCAFE
